@@ -8,7 +8,6 @@ Steps to get started
 git clone https://github.com/kusalkumar/cli-app.git
 ```
 
-Follow the tutorials to learn more
 
 2 Step two : basic python environment with 3.x shoule be fine
 ```
