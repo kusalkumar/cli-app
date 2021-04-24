@@ -1,3 +1,8 @@
+""" cli.py
+main file to exceute entire application.
+date: 24-04-2021
+Author: kusalkumar jalli
+"""
 import json
 
 import queries
@@ -231,6 +236,7 @@ if __name__ == '__main__':
         headers = {
                 'Content-Type': 'application/json'
                 }
+        print(details)
         payload = json.dumps(details)
         api_call = ApiMaster()
         success, response = api_call.make_request(api_url, "POST", headers=headers, body=payload)

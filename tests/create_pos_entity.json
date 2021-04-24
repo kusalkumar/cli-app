@@ -1,0 +1,18 @@
+{
+  "UserName": "kusal",
+  "FirstName": "kusalkumar",
+  "LastName": "jalli",
+  "Emails": [
+    "kusal@gmail.com"
+  ],
+  "AddressInfo": [
+    {
+      "Address": "tirupati",
+      "City": {
+        "Name": "tirupati",
+        "CountryRegion": "india",
+        "Region": "524132"
+      }
+    }
+  ]
+}
