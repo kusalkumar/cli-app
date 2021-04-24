@@ -15,13 +15,17 @@ virtualenv env
 source env/bin/activate
 ```
 
+3 Step three: install require libraries ( to run unittest cases )
+```
+pip install -r requirements.txt
+```
 
-3 Step three : Change directory to main
+3 Step four : Change directory to main
 ```
 cd cli-app/main/
 ```
 
-4 Step four : run the cli.py file
+4 Step five : run the cli.py file
 ```
 python cli.py
 ```
@@ -43,7 +47,7 @@ please choose the option:
 
 ```
 
-5 Step five : Read the user manual to use the application which is already mentioned in python cli.py output
+5 Step six : Read the user manual to use the application which is already mentioned in python cli.py output
 ```
 https://docs.google.com/document/d/1psrxaVwLwfmVU0CvcI393Dx9ENfB1w4n31CejDFc-7Y/edit?usp=sharing
 ```
