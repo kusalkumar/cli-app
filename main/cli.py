@@ -223,6 +223,8 @@ if __name__ == '__main__':
             break
 
     if create_entity:
+        print("")
+        print(params.WAITING_MESSAGE)
         success, token = queries.get_token()
         if not success:
             print(params.SOMETHING_WENT_WRONG)
@@ -245,6 +247,8 @@ if __name__ == '__main__':
         print(response)
 
     if filter_entity:
+        print("")
+        print(params.WAITING_MESSAGE)
         success, token = queries.get_token()
 
         if not success:
